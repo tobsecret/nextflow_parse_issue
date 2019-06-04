@@ -1,0 +1,18 @@
+Bug Report:
+If nextflow.config has a manifest scope it doesn't get filled by the `params` or `env` variables unlike other scopes
+
+Expected Behavior:
+Nextflow would parse the parameters and environmental variables and replace them in the manifest scope as it does for other scopes
+
+Steps to reproduce
+Run the command:
+nextflow run -hub github hydriniumh2/nextflow_parse_issue -latest --foo foo --bar bar --location test -r master
+
+Gives the error:
+N E X T F L O W  ~  version 19.04.1
+Pulling hydriniumh2/nextflow_parse_issue ...
+Fast-forward
+Missing project main script: [USER DIRECTORY].nextflow/assets/hydriniumh2/nextflow_parse_issue/[:]/main.nf
+
+But running locally is fine:
+nextflow test/main.nf --foo foo --bar bar --location test
