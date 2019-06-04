@@ -1,0 +1,3 @@
+2019-06-04 10:46:57	2.3s	crazy_jepsen	OK	2522c5d504666645818d3ce04c1934ee	29453a43-0ed1-4843-af6f-327d389cfcf9	nextflow main.nf --test test
+2019-06-04 10:48:13	-	thirsty_wright	-	74d24f702249a797f4426e51a1a1a522	9602af5c-ba1a-4ad5-a994-92a0dd581ae3	nextflow main.nf --test test
+2019-06-04 10:48:27	1.9s	jovial_morse	OK	4addbf2a256b3fe73b906df0c732eb12	56f2d07f-cc73-48a1-bd50-2539fcc147ee	nextflow main.nf --test test
